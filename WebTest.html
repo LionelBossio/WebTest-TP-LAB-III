@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head lang="es">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="WebTestCSS.css">
+		<title>WebTestH</title>
+	</head>
+	<body>
+		<div id="encabezado">
+			<h1 id="titulo">Bienvenido al cuestionario de Historia</h1>
+		</div>
+		<div id="introduc">
+			<div id="intro1">
+				<p class="Pintro">El siguiente cuestionario podra darte a conocer que tanto sabes de historia, tomando diferentes hechos.</p>
+			</div>
+			<div id="intro2">
+				<p class="Pintro">Recuerda este test es solo entretenimiento por lo que queda a tu conciencia buscar o no la respuesta. <strong>Buena suerte.</strong></p> 
+			</div>
+		</div>
+		<form action="#" method="GET" id="formulari">
+			
+			<div class="pregunta">
+				<p>En qué fecha inicio el suceso mostrado en la imagen.</p>
+				<select id="resPre1">
+					<option value="1">1939</option>
+					<option value="2">1841</option>
+					<option value="3">1789</option>
+					<option value="4">1969</option>
+				</select>
+				<div id="MoB1"></div>
+				<div id="fecCorrect"></div>
+				<p id="pista1">Revolución francesa</p>
+				<img src="Imagenes/ImagenPreg1.jpg" id="imgrevfra" alt="Revolucion Francesa"> <!-- 3 -->
+			</div>
+
+			<div class="pregunta">
+				<img src="Imagenes/ImagenPreg2.jpg" id="imapre2" alt="Anonimo">
+				<p>¿Quién fue el último emperador del Imperio Romano?</p>
+				<input type="button" value="Magno Máximo" class="resPre2" id="res21">
+				<input type="button" value="Julio César" class="resPre2" id="res22">
+				<input type="button" value="Rómulo Augusto" class="resPre2" id="res23"> <!-- RESPUESTA CORRECTA -->
+				<input type="button" value="Octavio Augusto" class="resPre2" id="res24">
+			</div>
+
+			<div class="pregunta">
+				<img src="Imagenes/ImagenPreg3.jpg" id="imapre3" alt="Tratado">
+				<p>¿Qué tratado se firmó al final de La Primera Guerra Mundial?</p>
+				<input type="button" value="Tratado de Brest-Litovsk" class="resPre3" id="res31">
+				<input type="button" value="Tratado de Londres" class="resPre3" id="res32">
+				<input type="button" value="Tratado de Versalles" class="resPre3" id="res33"> <!-- RESPUESTA CORRECTA -->
+				<input type="button" value="Tratado de Methuen" class="resPre3" id="res34">
+			</div>
+
+			<div class="pregunta">
+				<img src="Imagenes/ImagenPreg4.jpg" id="imapre4" alt="Gran Muralla China">
+				<p>¿Con que finalidad se construyó La Gran Muralla China?</p>
+				<input type="button" value="Limitar terrenos" class="resPre4" id="res41">
+				<input type="button" value="Defensa de invasiones" class="resPre4" id="res42"> <!-- RESPUESTA CORRECTA -->
+				<input type="button" value="Probar su poder" class="resPre4" id="res43"> 
+				<input type="button" value="Evitar inmigrantes" class="resPre4" id="res44">
+			</div>
+
+			<div class="pregunta">
+				<img src="Imagenes/ImagenPreg5.jpg" id="imapre5" alt="America">
+				<p>¿Quiénes fueron los primeros en llegar a América?</p>
+				<input type="button" value="Vikingos" class="resPre5" id="res51"> <!-- RESPUESTA CORRECTA -->
+				<input type="button" value="Españoles" class="resPre5" id="res52">
+				<input type="button" value="Chinos" class="resPre5" id="res53">
+				<input type="button" value="Britanicos" class="resPre5" id="res54">
+			</div>
+
+			<input type="button" id="repe" class="btnsForm" value="Reiniciar"> 
+			<input type="button" id="empe" class="btnsForm" value="Empezar">
+			<input type="button" id="sigui" class="btnsForm" value="Siguiente">
+			<input type="button" id="atra" class="btnsForm" value="Atras">
+			<input type="submit" id="enviar" class="btnsForm" value="Terminar test">
+			<div id="cantidadCorrectas">
+				<p id="correct"></p>
+				<p id="Incom"></p>
+			</div>
+		</form>
+		<script type="text/javascript" src="WebTestJS.js"></script>
+	</body>
+</html>

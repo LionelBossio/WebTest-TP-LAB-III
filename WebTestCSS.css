@@ -1,0 +1,274 @@
+
+body{
+	background: url(Imagenes/ImagenFondo.jpg);
+	background-size: 100%;
+}
+
+#encabezado #titulo{
+	position: absolute;
+	left: 32%;
+	transform: 50%;
+	border: inset 5px black;
+	border-radius: 10px;
+	background-color: darkcyan;
+	text-align: center;
+	width: 35%;
+	color: black;
+	font-size: 45px;
+	font-family: monospace;
+	text-align: center;
+}
+
+/* Introduccion */
+
+#introduc #intro1{
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	border: inset 5px black;
+	background-color: darkcyan;
+	text-align: center;
+	width: 40%;
+	border-radius: 10px;
+
+}
+#introduc #intro2{
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	border: inset 5px black;
+	background-color: darkcyan;
+	text-align: center;
+	width: 40%;
+	border-radius: 10px;
+}
+#introduc .Pintro{
+	font-size: 20px;
+	font-family: "Lucida console",monospace;
+}
+
+/* Fin Introduccion */
+
+/* Formulario */
+
+#formulari p{
+	font-size: 19px;
+	font-style: Verdana;
+}
+
+#formulari p#pista1{
+	position: absolute;
+	top: 20%;
+	left: 37%;
+}
+
+#formulari img{
+	border: solid 3px black;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 3px;
+	width: 25%;
+	height: 40%;
+}
+
+/* Preguntas */
+
+div.pregunta{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	text-align: center;
+	height: 63%;
+	width: 50%;
+	border-radius: 7px;
+}
+
+div.pregunta input{
+	position: relative;
+	box-sizing: border-box;
+	border: none;
+	font-size: 16px;
+	font-style: Verdana;
+	height: 15%;
+	width: 40%;
+	text-align: center;
+	margin: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+div.pregunta input:hover{
+	border: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px goldenrod;
+}
+
+.pregunta #resPre1{
+	position: absolute;
+	top: 15%;
+	left: 31%;
+	box-sizing: border-box;
+	border: none;
+	font-size: 16px;
+	font-style: Verdana;
+	text-align: center;
+	height: 10%;
+	width: 35%;
+	background-color: white;
+	border-radius: 5px;
+}
+.pregunta #resPre1:hover{
+	border: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#formulari img#imgrevfra{
+	position: absolute;
+	top: 30%;
+	left: 18%;
+	float: none;
+	box-sizing: border-box;
+	width: 60%;
+	height: 60%;
+}
+
+/* Fin preguntas */
+
+/* Botones del formulario */
+
+#formulari .btnsForm:hover{
+	border: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px seagreen;
+}
+
+#formulari #sigui{
+	position: absolute;
+	top: 60%;
+	left: 79%;
+	box-sizing: border-box;
+	border: none;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	font-size: 19px;
+	font-style: italic;
+	background-color: darkcyan;
+	border-radius: 5px;
+}
+
+#formulari #atra{
+	position: absolute;
+	top: 60%;
+	left: 11%;
+	box-sizing: border-box;
+	border: none;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	font-size: 19px;
+	font-style: italic;
+	background-color: darkcyan;
+	border-radius: 5px;
+}
+
+#formulari #enviar{
+	position: absolute;
+	top: 60%;
+	left: 79%;
+	box-sizing: border-box;
+	border: none;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	font-size: 19px;
+	font-style: italic;
+	background-color: darkcyan;
+	border-radius: 5px;
+}
+
+#formulari #empe{
+	position: absolute;
+	top: 70%;
+	left: 45%;
+	box-sizing: border-box;
+	border: none;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	font-size: 19px;
+	font-style: italic;
+	background-color: darkcyan;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#formulari #repe{
+	position: absolute;
+	top: 60%;
+	left: 79%;
+	box-sizing: border-box;
+	border: none;
+	height: 10%;
+	width: 10%;
+	text-align: center;
+	font-size: 19px;
+	font-style: italic;
+	background-color: darkcyan;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Fin botones formulario */
+
+/* Parrafo de correctas o incorrectas */
+
+div#cantidadCorrectas p#correct{
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	color: #30FF24;
+	text-align: center;
+	opacity: 70%;
+	clear: left;
+	float: inherit;
+	font-family: Verdana;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px gray;
+}
+
+div#cantidadCorrectas p#Incom{
+	position: absolute;
+	top: 20%;
+	left: 74%;
+	opacity: 70%;
+	color: red;
+	text-align: center;
+	clear: left;
+	float: inherit;
+	font-family: Verdana;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px gray;
+}
+
+div.pregunta div#MoB1{ /* MoB1 = Mal o Bien 1 */
+	color: darkred;
+	position: absolute;
+	top: 16%;
+	left: 70%;
+	font-size: 25px;
+	font-family: italic;
+}
+
+div.pregunta div#fecCorrect{
+	color: darkred;
+	position: absolute;
+	top: 17%;
+	left: 3%;
+	font-size: 16px;
+	font-family: Verdana;
+}
+
+/* Fin parrafo de correcto o incorrecto */
