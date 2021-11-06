@@ -1,17 +1,5 @@
 "use strict"
 
-/* Hacer un contador para indicar cuantas respodio correctamente 										X 		*/
-
-/* Ordenar segun los hechos historicos, Multiple seleccion de por ejemplo varias imagenes 				X		*/
-
-/* Cuando se termine mostrar junto a las preguntas la justificacion de la respuesta						X	 	*/
-
-/* Arreglar botones 																					X		*/
-
-/* cambiar los boton por btn 																			X		*/
-
-/* Ver mouse hover 																								*/
-
 var botonSubmit = document.querySelector("#enviar");
 
 var res2 = document.getElementById('res23');
@@ -354,3 +342,5 @@ botonSigui.addEventListener("click",Siguiente);
 botonAtra.addEventListener("click",Anterior);
 botonEmpe.addEventListener("click",Empezar);
 botonRepe.addEventListener("click",Reiniciar);
+
+/* Fin Botones Atras, Siguiente, Empezar y Reiniciar */
