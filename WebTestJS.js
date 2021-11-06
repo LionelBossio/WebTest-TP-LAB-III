@@ -96,7 +96,7 @@ function obtenerResultado(evento){
 				MaloBien1.style.color = "#00BB2D";
 			}else{
 				MaloBien1.innerHTML = "X";
-				fechaCorrecta.innerHTML = "Fecha correcta: 1789";
+				fechaCorrecta.innerHTML = "Año correcto: 1789";
 			}
 
 			botonres2.forEach(btn => {
